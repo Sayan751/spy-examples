@@ -1,0 +1,16 @@
+{
+  "name": "src-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "typings": "./dist/index",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Sayan751",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
+}

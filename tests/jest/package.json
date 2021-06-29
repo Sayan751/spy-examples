@@ -1,0 +1,21 @@
+{
+  "name": "jest-spy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Sayan751",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@netatwork/spy": "^1.1.0",
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.6",
+    "source-map-support": "^0.5.19",
+    "src-package": "file:../../src-package",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0"
+  }
+}

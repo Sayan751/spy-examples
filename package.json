@@ -1,0 +1,30 @@
+{
+  "name": "spy-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sayan751/spy-examples.git"
+  },
+  "keywords": [],
+  "author": "Sayan751",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sayan751/spy-examples/issues"
+  },
+  "homepage": "https://github.com/Sayan751/spy-examples#readme",
+  "workspaces": [
+    "./src-package",
+    "./tests/jasmine",
+    "./tests/jest",
+    "./tests/mocha-chai",
+    "./tests/mocha-node-assert"
+  ]
+}
